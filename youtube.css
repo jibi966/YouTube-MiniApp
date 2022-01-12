@@ -1,0 +1,116 @@
+body {
+  background-color: black;
+}
+#leftNav {
+  height: 780px;
+  width: 100px;
+  /* position: fixed; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  color: white;
+  /* gap: 20px; */
+}
+#topNav {
+  height: 60px;
+  width: 1380px;
+  margin-left: 110px;
+  margin-top: -780px;
+  /* position: fixed; */
+  background-color: black;
+  color: white;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+#yticon {
+  width: 150px;
+  height: 100%;
+}
+#topNav > input {
+  width: 320px;
+  height: 28px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border: 1px solid grey;
+  margin-left: 20%;
+}
+#topNav > button {
+  border: none;
+  background-color: grey;
+  height: 32px;
+}
+#pp {
+  width: 30px;
+  height: 50%;
+  border-radius: 60%;
+  margin-left: 15px;
+}
+.mic {
+  margin-left: 8px;
+}
+.video {
+  margin-left: 29%;
+}
+.app,
+.noti {
+  margin-left: 15px;
+}
+.rec {
+  margin-top: 20px;
+}
+.cm {
+  margin-top: 30px;
+}
+#con {
+  width: 1380px;
+  height: 690px;
+  margin-top: 20px;
+  margin-left: 110px;
+  overflow: scroll;
+  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(4, 310px);
+  grid-gap: 20px;
+}
+#con > div {
+  padding: 10px;
+  height: 280px;
+  overflow: hidden;
+  color: white;
+}
+#con::-webkit-scrollbar {
+  display: none;
+}
+#last {
+  display: flex;
+}
+#let {
+  margin-top: -600px;
+  margin-left: 150px;
+}
+#ryt::-webkit-scrollbar {
+  display: none;
+}
+#ryt {
+  margin-top: -600px;
+  margin-left: 50px;
+  width: 350px;
+  padding: 10px;
+  height: 580px;
+  overflow: scroll;
+  color: white;
+}
+#like {
+  width: 805px;
+  height: 70px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
